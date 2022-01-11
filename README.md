@@ -1,8 +1,8 @@
-## Electricity metering scripts
+# Electricity metering scripts
 
-*** NOTE! This repository is not meant to be "ready to deploy" but rather an example of how I built it on my system ***
+***NOTE! This repository is not meant to be "ready to deploy" but rather an example of how I built it on my system***
 
-# What, why, where?
+## What, why, where?
 
 This pile of scripts is how I built logging of my houses electricity usage. The system runs on Raspberry PI (1st gen).
 It basically reads led pulses of electricity meter via phototransistor and converts it to usage statistics.
@@ -10,7 +10,7 @@ It also keeps hourly log of outside temperature from closest weatherstation. In 
 I also read inside temperature sensors and write graphs of the data with Grafana, but its outside of this repository's scope.
 The actual database and web services are on more beefier home NAS.
 
-# File explanation
+## File explanation
 
 elogger.py		This is the main program for handling pulse counting and calling database insertion scripts.
 elogger.sh		Bash script for automatically creating detached screen (Run at system boot)
