@@ -12,12 +12,12 @@ The actual database and web services are on more beefier home NAS.
 
 ## File explanation
 
-elogger.py		This is the main program for handling pulse counting and calling database insertion scripts.
-elogger.sh		Bash script for automatically creating detached screen (Run at system boot)
-dbinsert.sh		Bash script for pushing data to database (in this case hourly usage of electricity)
-realtimeusage.sh	Bash script for updating data on realtime electricity usage to database.
-getweather.py		Python script to fetch latest weather data from Finnish Meteorological Institute. Called from crontab.
-datatypes.txt		File that lists explanations for the weather data that comes from FMI.
-emeter_config.example	Example configuration file for getweather.py Used to keep user credentials away from script.
-emeter.log		Logfile to write errors from getweather.py in case of errors fetching data.
+- elogger.py		This is the main program for handling pulse counting and calling database insertion scripts.
+- elogger.sh		Bash script for automatically creating detached screen (Run at system boot)
+- dbinsert.sh		Bash script for pushing data to database (in this case hourly usage of electricity)
+- realtimeusage.sh	Bash script for updating data on realtime electricity usage to database.
+- getweather.py		Python script to fetch latest weather data from Finnish Meteorological Institute. Called from crontab.
+- datatypes.txt		File that lists explanations for the weather data that comes from FMI.
+- emeter_config.example	Example configuration file for getweather.py Used to keep user credentials away from script.
+- emeter.log		Logfile to write errors from getweather.py in case of errors fetching data.
 
