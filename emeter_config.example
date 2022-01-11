@@ -1,0 +1,13 @@
+#----------------------------------------------------#
+# This configuration file used by emeter scripts.    #
+# The parameters should be quite self explanatory.   #
+#----------------------------------------------------#
+
+#DATABASE
+
+username="username"
+password="password"
+database="database"
+server="192.168.1.10"
+logdir="/path/to/log/"
+table="table_to_store_data"
